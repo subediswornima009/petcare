@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- PetCare Palette: warm, friendly tones suited to a pet-care app -->
+    <color name="primary_dark">#0D3B37</color> <!-- Deep Teal -->
+    <color name="primary">#12726A</color>      <!-- Teal -->
+    <color name="accent">#F58B3D</color>       <!-- Warm Amber/Orange -->
+    <color name="accent_light">#FFB169</color>
+
+    <color name="background_light">#FBF8F3</color>
+    <color name="text_primary">#233129</color>
+    <color name="text_secondary">#6B7A72</color>
+    <color name="input_field_bg">#F1F1EC</color>
+
+    <!-- Legacy Mappings for compatibility -->
+    <color name="purple_200">@color/accent_light</color>
+    <color name="purple_500">@color/primary</color>
+    <color name="purple_700">@color/primary_dark</color>
+    <color name="teal_200">@color/accent</color>
+    <color name="teal_700">@color/accent</color>
+</resources>

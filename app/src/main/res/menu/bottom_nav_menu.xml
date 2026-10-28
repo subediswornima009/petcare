@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navHome"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/navMyPets"
+        android:icon="@drawable/ic_pet"
+        android:title="My Pets" />
+    <item
+        android:id="@+id/navCareRoutine"
+        android:icon="@drawable/ic_care_tasks"
+        android:title="Routine" />
+    <item
+        android:id="@+id/navPlaces"
+        android:icon="@drawable/ic_places"
+        android:title="Places" />
+    <item
+        android:id="@+id/navExpenses"
+        android:icon="@drawable/ic_expense"
+        android:title="Expenses" />
+</menu>

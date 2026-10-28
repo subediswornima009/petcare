@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Diagonal teal gradient backdrop -->
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="0"
+                android:startY="0"
+                android:endX="108"
+                android:endY="108"
+                android:startColor="#1B8A80"
+                android:centerColor="#12726A"
+                android:endColor="#0D3B37" />
+        </aapt:attr>
+    </path>
+
+    <!-- Soft radial highlight, upper-left, for a subtle glossy lift -->
+    <path
+        android:fillAlpha="0.10"
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,-8 C87,-8 114,19 114,52 C114,60 112.5,67.6 109.8,74.4 C104,58 79,44 54,44 C29,44 4,58 -1.8,74.4 C-4.5,67.6 -6,60 -6,52 C-6,19 21,-8 54,-8 Z" />
+</vector>
